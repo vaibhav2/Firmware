@@ -140,7 +140,7 @@ MODULES		+= examples/rover_steering_control
 #MODULES		+= examples/math_demo
 # Tutorial code from
 # https://pixhawk.ethz.ch/px4/dev/hello_sky
-#MODULES		+= examples/px4_simple_app
+MODULES		+= examples/px4_simple_app
 
 # Tutorial code from
 # https://pixhawk.ethz.ch/px4/dev/daemon
@@ -156,6 +156,9 @@ MODULES		+= examples/rover_steering_control
 
 # Hardware test
 #MODULES			+= examples/hwtest
+
+# Semester Project App
+MODULES		+= examples/adcthrust
 
 # Generate parameter XML file
 GEN_PARAM_XML = 1
